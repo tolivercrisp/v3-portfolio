@@ -7,14 +7,14 @@ import {
 } from '@mui/system';
 
 // Components
-import LightDarkButton from '../components/LightDarkButton'
+import { Typography } from '@mui/material';
 
 
 export default function Home() {
     return (
         <div>
             <Container maxWitdth={false} disableGutters>
-                <LightDarkButton />
+                <Typography>Hello, homepage.</Typography>
             </Container>
         </div>
     )
