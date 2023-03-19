@@ -1,8 +1,8 @@
+![React Portfolio Project Screenshot](/src/assets/v3-portfolio-screenshot.png)
+
 # Toliver's Portfolio (v3)
 
 Welcome to my React.js Portfolio Project!
-
-![React Portfolio Project Screenshot](/src/assets/v3-portfolio-screenshot.png)
 
 ## Table of Contents
   - [Usage](#usage)
