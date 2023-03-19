@@ -8,9 +8,11 @@ import {
 import Grid from '@mui/material/Grid';
 // Components
 import Navigation from '../components/navigation'
+import ImageList from '../components/imageList'
 
 
 export default function Projects() {
+
     return (
         <div>
             <Grid
@@ -28,6 +30,7 @@ export default function Projects() {
                         borderColor: '#f5f5f5',
                     }}>
                         <Navigation />
+                        <ImageList />
                     </Box>
                 </Grid>
             </Grid>
