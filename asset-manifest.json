@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/v3-portfolio/static/css/main.073c9b0a.css",
+    "main.js": "/v3-portfolio/static/js/main.b9412907.js",
+    "static/js/787.f4a4547d.chunk.js": "/v3-portfolio/static/js/787.f4a4547d.chunk.js",
+    "static/media/bounty-pic.jpeg": "/v3-portfolio/static/media/bounty-pic.c3446d168068884f8f4e.jpeg",
+    "static/media/just-work.png": "/v3-portfolio/static/media/just-work.2d84a1d7094fa4a6cf49.png",
+    "static/media/notes-pic.jpg": "/v3-portfolio/static/media/notes-pic.5b7a50e549f7a1b6815e.jpg",
+    "static/media/dreamAI-pic.jpg": "/v3-portfolio/static/media/dreamAI-pic.8716c8e6fa82c11e065a.jpg",
+    "static/media/buzzbytes-pic.jpg": "/v3-portfolio/static/media/buzzbytes-pic.5067ff44f0f821729bac.jpg",
+    "static/media/Resume.pdf": "/v3-portfolio/static/media/Resume.ec61aeacd0460098050e.pdf",
+    "index.html": "/v3-portfolio/index.html",
+    "main.073c9b0a.css.map": "/v3-portfolio/static/css/main.073c9b0a.css.map",
+    "main.b9412907.js.map": "/v3-portfolio/static/js/main.b9412907.js.map",
+    "787.f4a4547d.chunk.js.map": "/v3-portfolio/static/js/787.f4a4547d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.b9412907.js"
+  ]
+}
