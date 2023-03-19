@@ -37,10 +37,10 @@ const images = [
 
 const ImageButton = styled(ButtonBase)(({ theme }) => ({
   position: 'relative',
-  height: 200,
+  height: '21.75vh',
   [theme.breakpoints.down('sm')]: {
     width: '100% !important', // Overrides inline-style
-    height: 100,
+    height: '21.75vh',
   },
   '&:hover, &.Mui-focusVisible': {
     zIndex: 1,

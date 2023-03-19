@@ -12,14 +12,16 @@ export default function Navigation() {
 
   return (
 <div>
-    <Box sx={{ flexGrow: 1, }}>
+    <Box sx={{ flexGrow: 1, marginBottom: 0, }}>
       <AppBar position='static'
         sx={{
         background: 'transparent',
         boxShadow: 'none',
         display: 'flex',
         }}>
-        <Toolbar sx={{ display: 'flex', justifyContent: 'space-evenly' }}> 
+        <Toolbar sx={{
+            display: 'flex',
+            justifyContent: 'space-evenly', }}> 
             {/* About */}
           <Button
         fullWidth={true}

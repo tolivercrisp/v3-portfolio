@@ -21,13 +21,15 @@ export default function Contact() {
             minHeight='100vh'
             >
                 <Grid item xs={2} >
+                    <Navigation />
                     <Box sx={{
-                        maxWidth: '618px',
+                        minWidth: '618px',
                         minHeight: '800px',
+                        maxWidth: '618px',
+                        maxHeight: '800px',
                         border: 1,
                         borderColor: '#f5f5f5',
                     }}>
-                        <Navigation />
                     </Box>
                 </Grid>
             </Grid>

@@ -42,9 +42,10 @@ export default function Header() {
 
                         <Typography
                         variant='subtitle2'
-                        fontWeight={'300'}
-                        letterSpacing={1.2}>
-                            | Software Engineer
+                        fontWeight={'700'}
+                        letterSpacing={1.2}
+                        sx={{ marginTop: 3,}}>
+                            Software Developer
                         </Typography> 
                 </Grid>
             </Grid>
