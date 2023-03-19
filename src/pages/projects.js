@@ -9,6 +9,7 @@ import Grid from '@mui/material/Grid';
 // Components
 import Navigation from '../components/navigation'
 import ImageList from '../components/imageList'
+import Footer from '../components/footer';
 
 
 export default function Projects() {
@@ -34,6 +35,7 @@ export default function Projects() {
                     }}>
                         <ImageList />
                     </Box>
+                    <Footer />
                 </Grid>
             </Grid>
         </div>

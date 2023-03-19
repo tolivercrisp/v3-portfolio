@@ -9,6 +9,7 @@ import Grid from '@mui/material/Grid';
 // Components
 import Navigation from '../components/navigation'
 import ResumeLink from '../components/resumeLink';
+import Footer from '../components/footer';
 
 
 export default function Resume() {
@@ -33,6 +34,7 @@ export default function Resume() {
                     }}>
                         <ResumeLink />
                     </Box>
+                    <Footer />
                 </Grid>
             </Grid>
         </div>

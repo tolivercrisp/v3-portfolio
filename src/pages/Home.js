@@ -11,6 +11,7 @@ import Grid from '@mui/material/Grid';
 import Navigation from '../components/navigation'
 import About from '../components/about'
 import Header from '../components/header';
+import Footer from '../components/footer';
 
 
 export default function Home() {
@@ -36,6 +37,7 @@ export default function Home() {
                         <Header />
                         <About />
                     </Box>
+                    <Footer />
                 </Grid>
             </Grid>
         </div>

@@ -8,7 +8,8 @@ import {
 import Grid from '@mui/material/Grid';
 // Components
 import Navigation from '../components/navigation'
-
+import Footer from '../components/footer';
+import ContactForm from '../components/contactForm';
 
 export default function Contact() {
     return (
@@ -30,7 +31,9 @@ export default function Contact() {
                         border: 1,
                         borderColor: '#f5f5f5',
                     }}>
+                        <ContactForm />
                     </Box>
+                    <Footer />
                 </Grid>
             </Grid>
         </div>
