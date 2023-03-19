@@ -26,7 +26,7 @@ const darkTheme = createTheme({
 ReactDOM.render(
   <ThemeProvider theme={darkTheme}>
     <CssBaseline />
-      <BrowserRouter>
+      <BrowserRouter basename='/v3-portfolio'>
         <App/>
       </BrowserRouter>
   </ThemeProvider>,
