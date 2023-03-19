@@ -6,14 +6,11 @@ import {
     Box,
 } from '@mui/system';
 import Grid from '@mui/material/Grid';
-
 // Components
 import Navigation from '../components/navigation'
-import About from '../components/about'
-import Header from '../components/header';
 
 
-export default function Home() {
+export default function Projects() {
     return (
         <div>
             <Grid
@@ -29,8 +26,6 @@ export default function Home() {
                         borderColor: '#f5f5f5',
                     }}>
                         <Navigation />
-                        <Header />
-                        <About />
                     </Box>
                 </Grid>
             </Grid>

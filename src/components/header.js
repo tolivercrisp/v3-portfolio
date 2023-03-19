@@ -4,7 +4,6 @@ import React from "react";
 import Grid from '@mui/material/Grid';
 import { Typography } from "@mui/material";
 import Box from "@mui/material/Box";
-
 // image
 import Me from '../assets/just-work.png'
 
@@ -17,7 +16,7 @@ export default function Header() {
             alignItems='center'
             justifyContent='left'
             >
-                <Grid item xs={3} sx={{
+                <Grid item xs={3} sm={3} md={3} sx={{
                     marginLeft: 5,
                     marginRight: 5,
                     paddingTop: 10,
@@ -29,13 +28,14 @@ export default function Header() {
                         fontWeight={'300'}
                         letterSpacing={3}>
                             Toliver Crisp
-                        </Typography>                 
+                        </Typography>  
+
                         <Typography
                         variant='subtitle2'
                         align='justify'
                         fontWeight={'300'}
                         letterSpacing={1.2}>
-                            | Software Engineer
+                            Software Engineer
                         </Typography> 
                         <Box component="img"
                         sx={{
@@ -46,15 +46,10 @@ export default function Header() {
                             // maxWidth: { xs: 350, md: 250 },
                         }}
                         alt="A picture of a beautiful, intelligent, compassionate man."
-                        src={Me}
+                        src={ Me }
                         />
                 </Grid>
-
             </Grid>
-
         </div>
-
-
-
     );
 };

@@ -16,11 +16,8 @@ export default function About() {
             >
                 <Grid item xs={3} sx={{marginLeft: 5, marginRight: 5}}>
                     <Box sx={{ display: 'flex'}}>
-                        <Typography variant='body1' align='left'>
-                        I'm proud of the diverse technologies I've added to my development toolbox!
-                        Although I'm graduating from my full stack bootcamp soon, I'll remain a lifetime learner
-                        and student because I've found constant, habitual learning to be the key to a fruitful
-                        and rewarding software career.
+                        <Typography variant='body1' align='justify'>
+                        I'm a software engineer that likes to find creative solutions for big problems. 
                         </Typography>
                     </Box>
                 </Grid>
