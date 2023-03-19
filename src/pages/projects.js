@@ -22,6 +22,8 @@ export default function Projects() {
             >
                 <Grid item xs={2} >
                     <Box sx={{
+                        maxWidth: '618px',
+                        minHeight: '800px',
                         border: 1,
                         borderColor: '#f5f5f5',
                     }}>

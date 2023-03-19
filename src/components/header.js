@@ -14,29 +14,14 @@ export default function Header() {
             container spacing={0}
             direction='column'
             alignItems='center'
-            justifyContent='left'
+            justifyContent='center'
             >
                 <Grid item xs={3} sm={3} md={3} sx={{
                     marginLeft: 5,
                     marginRight: 5,
-                    paddingTop: 10,
+                    paddingTop: 4,
                     paddingBottom: 10,
                     }}>
-                        <Typography
-                        variant='h4'
-                        align='justify'
-                        fontWeight={'300'}
-                        letterSpacing={3}>
-                            Toliver Crisp
-                        </Typography>  
-
-                        <Typography
-                        variant='subtitle2'
-                        align='justify'
-                        fontWeight={'300'}
-                        letterSpacing={1.2}>
-                            Software Engineer
-                        </Typography> 
                         <Box component="img"
                         sx={{
                             marginTop: 3,
@@ -48,6 +33,19 @@ export default function Header() {
                         alt="A picture of a beautiful, intelligent, compassionate man."
                         src={ Me }
                         />
+                        <Typography
+                        variant='h4'
+                        fontWeight={'300'}
+                        letterSpacing={3}>
+                            Toliver Crisp
+                        </Typography>  
+
+                        <Typography
+                        variant='subtitle2'
+                        fontWeight={'300'}
+                        letterSpacing={1.2}>
+                            | Software Engineer
+                        </Typography> 
                 </Grid>
             </Grid>
         </div>
