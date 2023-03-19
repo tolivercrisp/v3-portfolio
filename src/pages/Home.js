@@ -23,8 +23,10 @@ export default function Home() {
             justifyContent='center'
             minHeight='100vh'
             >
-                <Grid item xs={2} >
+                <Grid item xs={2}>
                     <Box sx={{
+                        maxWidth: '618px',
+                        minHeight: '800px',
                         border: 1,
                         borderColor: '#f5f5f5',
                     }}>
