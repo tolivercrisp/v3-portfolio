@@ -2,32 +2,31 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // Material UI
-import Stack from '@mui/material/Stack';
-import TextField from '@mui/material/TextField';
+import Stack from "@mui/material/Stack";
+import TextField from "@mui/material/TextField";
 import { Box } from "@mui/system";
 import { Typography } from "@mui/material";
-import { Button } from "@mui/material"
-import SendIcon from '@mui/icons-material/Send';
- 
+import { Button } from "@mui/material";
+import SendIcon from "@mui/icons-material/Send";
+
 export default function ContactForm() {
-    return(
+  return (
     <Box
-    display='flex'
-    justifyContent='center'
-    alignItems='center'
-    minHeight='80vh'>
-        <Stack
+      display="flex"
+      justifyContent="center"
+      alignItems="center"
+      minHeight="80vh"
+    >
+      <Stack
         component="form"
         sx={{
-          width: '30ch',
+          width: "30ch",
         }}
         spacing={4}
         noValidate
         autoComplete="off"
       >
-        <Typography variant="h5" >
-            Contact me.
-            </Typography>
+        <Typography variant="h5">Contact me.</Typography>
         <TextField
           hiddenLabel
           id="filled-hidden-label-small"
@@ -48,18 +47,18 @@ export default function ContactForm() {
         />
         {/* doesn't actually submit anything */}
         <Button
-        type="submit"
+          type="submit"
           fullWidth={true}
-          variant='outlined'
+          variant="outlined"
           component={Link}
           to="/"
           sx={{
-            textTransform: 'none',
-           }}>
-            <SendIcon />
-          </Button>
+            textTransform: "none",
+          }}
+        >
+          <SendIcon />
+        </Button>
       </Stack>
     </Box>
-
-    );
-};
+  );
+}

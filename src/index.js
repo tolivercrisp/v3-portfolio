@@ -1,34 +1,33 @@
 // React
-import React from 'react';
+import React from "react";
 // Router
-import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+import ReactDOM from "react-dom";
+import { BrowserRouter } from "react-router-dom";
 // Material UI
-import { ThemeProvider, createTheme } from '@mui/material/styles';
-import CssBaseline from '@mui/material/CssBaseline';
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+import CssBaseline from "@mui/material/CssBaseline";
 // other
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 
 const darkTheme = createTheme({
   palette: {
-    mode: 'dark',
+    mode: "dark",
   },
   typography: {
-    fontFamily: 'Plus Jakarta Sans'
+    fontFamily: "Plus Jakarta Sans",
   },
-    contrastThreshold: 4.5,
-    tonalOffset: 0.2,
+  contrastThreshold: 4.5,
+  tonalOffset: 0.2,
 });
-
 
 ReactDOM.render(
   <ThemeProvider theme={darkTheme}>
     <CssBaseline />
-      <BrowserRouter basename='/v3-portfolio'>
-        <App/>
-      </BrowserRouter>
+    <BrowserRouter basename="/v3-portfolio">
+      <App />
+    </BrowserRouter>
   </ThemeProvider>,
   document.getElementById("root")
 );
